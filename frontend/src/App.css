@@ -1,0 +1,37 @@
+.simulation-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+.status-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.status-dot.surplus {
+  background-color: #10B981;
+}
+
+.status-dot.deficit {
+  background-color: #EF4444;
+}
+
+.status-dot.balanced {
+  background-color: #64748B;
+}
+
+.metric-card {
+  border: 1px solid #E2E8F0;
+  background: white;
+  border-radius: 0.125rem;
+}
+
+.recharts-tooltip-wrapper {
+  background: #0F172A !important;
+  color: white !important;
+  border: none !important;
+  border-radius: 0.125rem !important;
+}
