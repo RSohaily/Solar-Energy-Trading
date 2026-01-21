@@ -1,4 +1,3 @@
-/*
 # Overview:
 This project is an Autonomous Microgrid Energy Trading Platform designed for decentralized energy markets. It simulates a P2P (Peer-to-Peer) economy where 25 autonomous "Prosumer" agents trade solar energy in real-time based on supply and demand.
 2. Technical Stack
